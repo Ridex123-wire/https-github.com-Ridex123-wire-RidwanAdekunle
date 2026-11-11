@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
+          <a href="#testimonials">Testimonials</a>
         </div>
 
         <a href="#contact" className="nav-button">
@@ -31,21 +32,18 @@ function App() {
 
             <h1>
               Hi, I'm Ridwan.
-              <br />
-              A <span>Frontend</span>
+              <br />A <span>Frontend</span>
               <br />
               Developer.
             </h1>
 
-           
-<p className="hero-description">
-  I create responsive, user-friendly web experiences
-  and build practical applications that solve real
-  problems. I'm growing my skills in React, JavaScript,
-  React Native, and Firebase while building projects
-  and looking for opportunities to contribute to a team.
-</p>
-
+            <p className="hero-description">
+              I create responsive, user-friendly web experiences and build
+              practical applications that solve real problems. I'm growing my
+              skills in React, JavaScript, React Native, and Firebase while
+              building projects and looking for opportunities to contribute to a
+              team.
+            </p>
 
             <div className="hero-actions">
               <a href="#projects" className="primary-button">
@@ -54,6 +52,14 @@ function App() {
 
               <a href="#contact" className="secondary-button">
                 Let's Connect
+              </a>
+
+              <a
+                href="/files/Ridwan_Adekunle_Developer_CV.pdf"
+                className="secondary-button"
+                download
+              >
+                Download My CV ↓
               </a>
             </div>
 
@@ -102,8 +108,10 @@ function App() {
                 </div>
 
                 <code>
-                  <span>const</span> goal = "build";<br />
-                  <span>const</span> learn = "every day";<br />
+                  <span>const</span> goal = "build";
+                  <br />
+                  <span>const</span> learn = "every day";
+                  <br />
                   <span>return</span> goal + learn;
                 </code>
               </div>
@@ -113,9 +121,7 @@ function App() {
               <span>✦</span> Creative
             </div>
 
-            <div className="floating-badge badge-two">
-              &lt;/&gt; React
-            </div>
+            <div className="floating-badge badge-two">&lt;/&gt; React</div>
           </div>
         </section>
 
@@ -130,12 +136,10 @@ function App() {
           </h2>
 
           <p>
-            I'm Ridwan, a developer growing my skills in
-            frontend and mobile app development. I enjoy
-            turning ideas into clear, useful interfaces
-            and learning how technology can solve everyday
-            problems. Through personal projects, I'm
-            building practical experience with React,
+            I'm Ridwan, a developer growing my skills in frontend and mobile app
+            development. I enjoy turning ideas into clear, useful interfaces and
+            learning how technology can solve everyday problems. Through
+            personal projects, I'm building practical experience with React,
             React Native, Firebase, and GitHub.
           </p>
         </section>
@@ -184,49 +188,36 @@ function App() {
           <h2>Projects with purpose.</h2>
 
           <p className="project-intro">
-            Personal projects where I practise my skills,
-            solve problems, and turn ideas into working
-            applications.
+            Personal projects where I practise my skills, solve problems, and
+            turn ideas into working applications.
           </p>
 
           <div className="project-card">
             <div>
-              <p className="project-type">
-                PERSONAL FINANCE APPLICATION
-              </p>
+              <p className="project-type">PERSONAL FINANCE APPLICATION</p>
 
               <h3>BudgetWise</h3>
 
               <p>
-                A money-management application designed to
-                help users record income and expenses,
-                monitor their finances, manage budgets,
-                and work towards savings goals.
+                A money-management application designed to help users record
+                income and expenses, monitor their finances, manage budgets, and
+                work towards savings goals.
               </p>
 
               <p>
-                Built with React Native, Expo, and Firebase
-                as part of my ongoing mobile development
-                learning journey.
+                Built with React Native, Expo, and Firebase as part of my
+                ongoing mobile development learning journey.
               </p>
 
               <div className="project-tags">
-                <span className="project-tag">
-                  React Native
-                </span>
+                <span className="project-tag">React Native</span>
 
-                <span className="project-tag">
-                  Expo
-                </span>
+                <span className="project-tag">Expo</span>
 
-                <span className="project-tag">
-                  Firebase
-                </span>
+                <span className="project-tag">Firebase</span>
               </div>
 
-              <p className="project-status">
-                Currently in development
-              </p>
+              <p className="project-status">Currently in development</p>
 
               <a
                 className="project-link"
@@ -241,18 +232,50 @@ function App() {
             <span className="project-arrow">↗</span>
           </div>
         </section>
+        {/* TESTIMONIALS */}
+        <section className="testimonials section" id="testimonials">
+          <p className="section-label">04 — TESTIMONIALS</p>
+
+          <h2>
+            What people say <span>about working with me.</span>
+          </h2>
+
+          <p className="testimonial-intro">
+            I'm always open to collaborating, learning, and building meaningful
+            connections with people. Have we worked together? I'd love to hear
+            your feedback.
+          </p>
+
+          <div className="testimonial-card">
+            <div className="testimonial-icon">“</div>
+
+            <h3>Your feedback matters.</h3>
+
+            <p>
+              If we've worked together on a project or collaborated
+              professionally, I'd appreciate hearing about your experience.
+            </p>
+
+            <a
+              href="mailto:adekunleridwan118@gmail.com?subject=Portfolio%20Testimonial"
+              className="project-link"
+            >
+              Share Your Feedback ↗
+            </a>
+          </div>
+        </section>
 
         {/* CONTACT */}
         <section className="contact section" id="contact">
-          <p className="section-label">04 — GET IN TOUCH</p>
+          <p className="section-label">05 — GET IN TOUCH</p>
 
           <h2>
             Let's create something <span>great.</span>
           </h2>
 
           <p>
-            Looking for a junior developer, have an opportunity,
-            or want to discuss a project? I'd love to hear from you.
+            Looking for a junior developer, have an opportunity, or want to
+            discuss a project? I'd love to hear from you.
           </p>
 
           <a
@@ -281,9 +304,7 @@ function App() {
             GitHub ↗
           </a>
 
-          <a href="mailto:adekunleridwan118@gmail.com">
-            Email ↗
-          </a>
+          <a href="mailto:adekunleridwan118@gmail.com">Email ↗</a>
         </div>
 
         <p>© {new Date().getFullYear()} Devora</p>

@@ -1,8 +1,7 @@
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
 
 :root {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   color: #f4f3ff;
   background: #0b0b12;
   font-synthesis: none;
@@ -26,15 +25,15 @@ a {
   text-decoration: none;
 }
 
-button, a {
+button,
+a {
   -webkit-tap-highlight-color: transparent;
 }
 
 .portfolio {
   overflow: hidden;
   background:
-    radial-gradient(ellipse at 75% 20%, #23163c 0%, transparent 36%),
-    #0b0b12;
+    radial-gradient(ellipse at 75% 20%, #23163c 0%, transparent 36%), #0b0b12;
 }
 
 .navbar {
@@ -48,7 +47,9 @@ button, a {
 }
 
 .logo {
-  font: 700 27px 'Space Grotesk', sans-serif;
+  font:
+    700 27px "Space Grotesk",
+    sans-serif;
   letter-spacing: -1.5px;
 }
 
@@ -128,7 +129,9 @@ button, a {
 }
 
 .hero h1 {
-  font: 700 clamp(42px, 5.5vw, 74px)/1.08 'Space Grotesk', sans-serif;
+  font:
+    700 clamp(42px, 5.5vw, 74px)/1.08 "Space Grotesk",
+    sans-serif;
   letter-spacing: -3px;
 }
 
@@ -158,7 +161,9 @@ button, a {
   border-radius: 9px;
   font-size: 13px;
   font-weight: 700;
-  transition: transform 0.25s, box-shadow 0.25s;
+  transition:
+    transform 0.25s,
+    box-shadow 0.25s;
 }
 
 .primary-button:hover {
@@ -175,7 +180,9 @@ button, a {
 }
 
 .hero-stats h3 {
-  font: 600 24px 'Space Grotesk', sans-serif;
+  font:
+    600 24px "Space Grotesk",
+    sans-serif;
 }
 
 .hero-stats p {
@@ -248,7 +255,9 @@ button, a {
 }
 
 .profile-card > h2 {
-  font: 600 21px 'Space Grotesk', sans-serif;
+  font:
+    600 21px "Space Grotesk",
+    sans-serif;
 }
 
 .profile-card > p {
@@ -288,7 +297,9 @@ button, a {
 
 .code-window code {
   color: #c9c5da;
-  font: 11px/2 'Courier New', monospace;
+  font:
+    11px/2 "Courier New",
+    monospace;
 }
 
 .code-window code span {
@@ -330,7 +341,9 @@ button, a {
 
 .section h2 {
   margin-top: 22px;
-  font: 600 clamp(30px, 4vw, 46px)/1.2 'Space Grotesk', sans-serif;
+  font:
+    600 clamp(30px, 4vw, 46px)/1.2 "Space Grotesk",
+    sans-serif;
   letter-spacing: -1.5px;
 }
 
@@ -398,7 +411,9 @@ button, a {
 
 .project-card h3 {
   margin-top: 12px;
-  font: 600 30px 'Space Grotesk', sans-serif;
+  font:
+    600 30px "Space Grotesk",
+    sans-serif;
 }
 
 .project-card div > p:not(.project-type) {
@@ -465,7 +480,8 @@ button, a {
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -584,7 +600,6 @@ button, a {
   }
 }
 
-
 /* Smooth scrolling between sections */
 html {
   scroll-behavior: smooth;
@@ -611,7 +626,9 @@ html {
 
 /* Skills hover animation */
 .skill-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .skill-card:hover {
@@ -621,7 +638,9 @@ html {
 
 /* Project hover animation */
 .project-card {
-  transition: transform 0.3s ease, border-color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .project-card:hover {
@@ -642,7 +661,8 @@ html {
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
 
@@ -663,7 +683,6 @@ html {
   }
 }
 
-
 .social-links {
   margin: 15px 0;
 }
@@ -678,7 +697,6 @@ html {
 .social-links a:hover {
   color: #ffffff;
 }
-
 
 /* =====================================
    DEVORA HERO — VISUAL UPGRADE
@@ -761,17 +779,14 @@ html {
 
 .profile-card {
   border-color: #c4b5fd35;
-  background: linear-gradient(
-    145deg,
-    #241b38 0%,
-    #151321 58%,
-    #101019 100%
-  );
+  background: linear-gradient(145deg, #241b38 0%, #151321 58%, #101019 100%);
   box-shadow:
     0 30px 80px #00000055,
     0 0 35px #8b5cf610,
     inset 0 1px 0 #ffffff0c;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .profile-card:hover {
@@ -783,7 +798,9 @@ html {
 
 .avatar {
   border: 3px solid #a78bfa;
-  box-shadow: 0 0 0 7px #a78bfa15, 0 12px 35px #00000050;
+  box-shadow:
+    0 0 0 7px #a78bfa15,
+    0 12px 35px #00000050;
 }
 
 .floating-badge {
@@ -893,3 +910,68 @@ a:focus-visible {
   }
 }
 
+/* TESTIMONIALS */
+.testimonials {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.testimonials h2 {
+  max-width: 750px;
+  margin-bottom: 20px;
+}
+
+.testimonials h2 span {
+  color: #a78bfa;
+}
+
+.testimonial-intro {
+  max-width: 650px;
+  color: #a1a1aa;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+.testimonial-card {
+  max-width: 650px;
+  padding: 35px;
+  border: 1px solid rgba(167, 139, 250, 0.25);
+  border-radius: 20px;
+  background: rgba(167, 139, 250, 0.06);
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  border-color: #a78bfa;
+}
+
+.testimonial-icon {
+  font-size: 55px;
+  line-height: 1;
+  color: #a78bfa;
+}
+
+.testimonial-card h3 {
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+.testimonial-card p {
+  color: #a1a1aa;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .testimonials {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+
+  .testimonial-card {
+    padding: 25px;
+  }
+}
