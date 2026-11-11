@@ -182,6 +182,8 @@ function App() {
         </section>
 
         {/* PROJECTS */}
+
+        {/* PROJECTS */}
         <section className="projects section" id="projects">
           <p className="section-label">03 — SELECTED WORK</p>
 
@@ -192,6 +194,7 @@ function App() {
             turn ideas into working applications.
           </p>
 
+          {/* BUDGETWISE */}
           <div className="project-card">
             <div>
               <p className="project-type">PERSONAL FINANCE APPLICATION</p>
@@ -211,9 +214,7 @@ function App() {
 
               <div className="project-tags">
                 <span className="project-tag">React Native</span>
-
                 <span className="project-tag">Expo</span>
-
                 <span className="project-tag">Firebase</span>
               </div>
 
@@ -231,7 +232,57 @@ function App() {
 
             <span className="project-arrow">↗</span>
           </div>
+
+          {/* PIZZA HOUSE */}
+          <div className="project-card">
+            <div>
+              <p className="project-type">FOOD ORDERING APPLICATION</p>
+
+              <h3>Pizza House</h3>
+
+              <p>
+                A responsive pizza ordering application where customers can
+                browse pizzas, search the menu, add items to their cart, place
+                orders, and track their deliveries.
+              </p>
+
+              <p>
+                Includes an admin dashboard for managing customer orders and
+                updating order statuses in real time.
+              </p>
+
+              <div className="project-tags">
+                <span className="project-tag">React</span>
+                <span className="project-tag">JavaScript</span>
+                <span className="project-tag">Firebase</span>
+                <span className="project-tag">Vite</span>
+              </div>
+
+              <p className="project-status">Live Project</p>
+
+              <a
+                className="project-link"
+                href="https://pizza-house-iota-three.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit Live Website ↗
+              </a>
+
+              <a
+                className="project-link"
+                href="https://github.com/Ridex123-wire/pizza-house"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Source Code ↗
+              </a>
+            </div>
+
+            <span className="project-arrow">↗</span>
+          </div>
         </section>
+
         {/* TESTIMONIALS */}
         <section className="testimonials section" id="testimonials">
           <p className="section-label">04 — TESTIMONIALS</p>
