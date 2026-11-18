@@ -1,6 +1,12 @@
 import "./App.css";
+import JobTrack from "./JobTrack";
 
 function App() {
+  // Show the JobTrack case study when the URL is /jobtrack
+  if (window.location.pathname === "/jobtrack") {
+    return <JobTrack />;
+  }
+
   return (
     <div className="portfolio">
       <nav className="navbar">
@@ -182,8 +188,6 @@ function App() {
         </section>
 
         {/* PROJECTS */}
-
-        {/* PROJECTS */}
         <section className="projects section" id="projects">
           <p className="section-label">03 — SELECTED WORK</p>
 
@@ -193,6 +197,60 @@ function App() {
             Personal projects where I practise my skills, solve problems, and
             turn ideas into working applications.
           </p>
+
+          {/* JOBTRACK */}
+          <div className="project-card">
+            <div>
+              <p className="project-type">FULL-STACK JOB APPLICATION TRACKER</p>
+
+              <h3>JobTrack</h3>
+
+              <p>
+                A full-stack job application tracking platform that helps job
+                seekers organize applications, monitor progress, schedule
+                interviews, and manage their job search from one dashboard.
+              </p>
+
+              <p>
+                Built with React, Node.js, Express, MongoDB, and JWT
+                authentication, with separate frontend and backend deployments.
+              </p>
+
+              <div className="project-tags">
+                <span className="project-tag">React</span>
+                <span className="project-tag">Node.js</span>
+                <span className="project-tag">Express</span>
+                <span className="project-tag">MongoDB</span>
+                <span className="project-tag">JWT</span>
+              </div>
+
+              <p className="project-status">Live Project</p>
+
+              <a className="project-link" href="/jobtrack">
+                View JobTrack Case Study ↗
+              </a>
+
+              <a
+                className="project-link"
+                href="https://jobtrack-ridwan.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit Live Application ↗
+              </a>
+
+              <a
+                className="project-link"
+                href="https://github.com/Ridex123-wire/jobtrack"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Source Code ↗
+              </a>
+            </div>
+
+            <span className="project-arrow">↗</span>
+          </div>
 
           {/* BUDGETWISE */}
           <div className="project-card">

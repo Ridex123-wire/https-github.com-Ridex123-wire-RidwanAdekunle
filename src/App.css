@@ -975,3 +975,376 @@ a:focus-visible {
     padding: 25px;
   }
 }
+
+/* =========================================
+   JOBTRACK CASE STUDY PAGE
+========================================= */
+
+.jobtrack-page {
+  min-height: 100vh;
+  background: #0b0b12;
+  color: #f4f3ff;
+  overflow: hidden;
+}
+
+.jobtrack-navbar {
+  width: min(1180px, 90%);
+  min-height: 88px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.jobtrack-back {
+  color: #c4b5fd;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.jobtrack-back:hover {
+  color: #ffffff;
+}
+
+.jobtrack-hero {
+  width: min(1000px, 86%);
+  margin: auto;
+  padding: 120px 0 100px;
+}
+
+.jobtrack-hero h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(42px, 7vw, 76px);
+  line-height: 1.12;
+  letter-spacing: -3px;
+  margin: 22px 0;
+}
+
+.jobtrack-hero h1 span,
+.jobtrack-section h2 span,
+.jobtrack-cta h2 span {
+  background: linear-gradient(120deg, #a78bfa, #c4b5fd, #818cf8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.jobtrack-hero-content > p:not(.section-label) {
+  max-width: 720px;
+  color: #a5a2b5;
+  font-size: 17px;
+  line-height: 1.9;
+}
+
+.jobtrack-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.jobtrack-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  margin-top: 65px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.jobtrack-meta div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.jobtrack-meta div > span {
+  color: #777386;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+}
+
+.jobtrack-meta strong {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.live-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.live-status i {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #4ade80;
+  box-shadow: 0 0 12px #4ade80;
+}
+
+.jobtrack-section {
+  width: min(1000px, 86%);
+  margin: auto;
+  padding: 85px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.jobtrack-section h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(32px, 5vw, 48px);
+  line-height: 1.25;
+  letter-spacing: -1.5px;
+  margin: 18px 0 35px;
+}
+
+.jobtrack-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.jobtrack-overview-grid > div,
+.jobtrack-tech-grid > div {
+  background: #12111c;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 30px;
+}
+
+.jobtrack-overview-grid h3,
+.jobtrack-tech-grid h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 21px;
+  margin-bottom: 15px;
+  color: #c4b5fd;
+}
+
+.jobtrack-overview-grid p,
+.jobtrack-tech-grid p,
+.jobtrack-section-description {
+  color: #a5a2b5;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.jobtrack-image-frame {
+  margin-top: 35px;
+  padding: 15px;
+  background: #14131f;
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.jobtrack-image-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px 8px 18px;
+  color: #a78bfa;
+  font-size: 11px;
+  letter-spacing: 1.2px;
+}
+
+.jobtrack-image-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.jobtrack-image-placeholder {
+  min-height: 280px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #1a1828;
+  border: 1px dashed rgba(167, 139, 250, 0.4);
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.jobtrack-image-placeholder > span {
+  color: #a78bfa;
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.jobtrack-image-placeholder strong {
+  font-size: 18px;
+}
+
+.jobtrack-image-placeholder p {
+  color: #9994aa;
+  font-size: 13px;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.jobtrack-features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 35px;
+}
+
+.jobtrack-feature-card {
+  padding: 27px;
+  background: #12111c;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  transition: 0.3s;
+}
+
+.jobtrack-feature-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(167, 139, 250, 0.5);
+}
+
+.jobtrack-feature-card > span {
+  display: inline-block;
+  color: #a78bfa;
+  font-size: 13px;
+  margin-bottom: 22px;
+}
+
+.jobtrack-feature-card h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.jobtrack-feature-card p {
+  color: #9994aa;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.jobtrack-tech-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  margin-top: 35px;
+}
+
+.jobtrack-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.jobtrack-tags span {
+  padding: 9px 15px;
+  background: rgba(167, 139, 250, 0.1);
+  color: #c4b5fd;
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  border-radius: 30px;
+  font-size: 13px;
+}
+
+.jobtrack-learning > p:last-child {
+  max-width: 800px;
+  color: #a5a2b5;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.jobtrack-cta {
+  width: min(1000px, 86%);
+  margin: 50px auto 100px;
+  padding: 75px 30px;
+  text-align: center;
+  background: linear-gradient(
+    135deg,
+    rgba(124, 58, 237, 0.17),
+    rgba(79, 70, 229, 0.08)
+  );
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  border-radius: 25px;
+}
+
+.jobtrack-cta h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(34px, 5vw, 52px);
+  line-height: 1.2;
+  margin: 20px 0;
+}
+
+.jobtrack-cta > p:not(.section-label) {
+  color: #a5a2b5;
+  line-height: 1.8;
+}
+
+.jobtrack-cta .jobtrack-actions {
+  justify-content: center;
+}
+
+.jobtrack-footer {
+  width: min(1180px, 90%);
+  margin: auto;
+  padding: 35px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* JOBTRACK RESPONSIVE DESIGN */
+
+@media (max-width: 800px) {
+  .jobtrack-features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .jobtrack-hero {
+    padding-top: 90px;
+  }
+}
+
+@media (max-width: 600px) {
+  .jobtrack-navbar {
+    min-height: 75px;
+  }
+
+  .jobtrack-back {
+    font-size: 12px;
+  }
+
+  .jobtrack-hero {
+    padding: 75px 0;
+  }
+
+  .jobtrack-hero h1 {
+    letter-spacing: -1.5px;
+  }
+
+  .jobtrack-meta {
+    gap: 25px;
+  }
+
+  .jobtrack-overview-grid,
+  .jobtrack-features-grid,
+  .jobtrack-tech-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .jobtrack-section {
+    padding: 65px 0;
+  }
+
+  .jobtrack-cta {
+    padding: 55px 20px;
+  }
+
+  .jobtrack-actions {
+    flex-direction: column;
+  }
+
+  .jobtrack-actions a {
+    text-align: center;
+  }
+}
